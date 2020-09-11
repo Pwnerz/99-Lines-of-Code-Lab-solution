@@ -23,7 +23,5 @@ for (var i = 0; i < friends.length; i++) {
     let pName = document.createTextNode( j + " lines of code in the file," + j + " lines of code; " + friends[i] + " strikes one out, clears it all out, " + (j-1) + " lines of code in the file")
     paragraph.appendChild(pName)
     name.appendChild(paragraph)
-    }}});
-
-  
-  });
+    }}}); 
+});
