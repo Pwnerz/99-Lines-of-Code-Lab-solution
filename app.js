@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   console.log("DOM fully loaded and parsed");
 
 let friends = ["Paco","Fer","John","Fran"]
-document.body.style.background-color = '#4682B4';
+document.body.style.backgroundcolor = '#4682B4';
 let friend = document.createElement('div');
 friend.className = "friend";
 document.body.appendChild(friend);
