@@ -1,13 +1,9 @@
 document.addEventListener("DOMContentLoaded", function(event) {
   console.log("DOM fully loaded and parsed");
 
-<<<<<<< HEAD
-let friends = ["Ryan","Lawrence","Stefano","Alex"]
 
-=======
-let friends = ["Paco","Fer","John","Fran"]
+let friends = ["Ryan","Lawrence","Stefano","Alex"]
 document.body.style.backgroundColor = '#4682B4';
->>>>>>> origin/gh-pages
 let friend = document.createElement('div');
 friend.className = "friend";
 document.body.appendChild(friend);
