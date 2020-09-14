@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function(event) {
   console.log("DOM fully loaded and parsed");
 
-let friends = ["Paco","Fer","John","Fran"]
+let friends = ["Ryan","Lawrence","Stefano","Alex"]
 
 let friend = document.createElement('div');
 friend.className = "friend";
